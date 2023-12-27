@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Ubuntu+Condensed&display=swap');
+html{
+    background-image: url(https://avatars.mds.yandex.net/i?id=e72488a573c5feae831c87d9c8fa05b2_l-5611890-images-thumbs&n=33&w=1872&h=1170&q=60);
+}
+
+
+
+
+
+/*prpsk*/
+
+.containerParentPRPSK1{
+    background-color: rgba(255, 115, 0, 0);
+    width: auto;
+    height: 20px;
+}
+
+.containerChildprpsk2{
+    background-color: rgba(255, 115, 0, 0);
+    width: auto;
+    height: 50px;
+}
+
+.containerChildprpsk3{
+    background-color: rgba(255, 115, 0, 0);
+    width: auto;
+    height: 50px;
+}
+
+/*top*/
+
+.containerParenthdm{
+    background-color: rgba(255, 115, 0, 0);
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.containerParenthdnm{
+    background-color: rgb(25, 40, 64);
+    height: 100px;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+    border-style: solid;
+}
+
+.containerChildArLink{
+    background-color: rgb(35, 26, 96);
+    border-style: solid;
+    height: 70px;
+    width: 130px;
+    border-radius: 10px;
+}
+
+.containerChildAlLink{
+    background-color: rgb(35, 26, 96);
+    border-style: solid;
+    height: 70px;
+    width: 130px;
+    border-radius: 10px;
+}
+
+.containerChildDiLink{
+    background-color: rgb(35, 26, 96);
+    border-style: solid;
+    height: 70px;
+    width: 130px;
+    border-radius: 10px;
+}
+
+.containerChildMP{
+    background-color: rgb(35, 26, 96);
+    border-style: solid;
+    height: 70px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+/*Writer*/
+
+.containerParentWriter{
+    background-color: rgba(255, 115, 0, 0);
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.containerChildwriter{
+    background-color: rgb(25, 40, 64);
+    border-style: solid;
+    height: 100px;
+    width: 800px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+/*mid*/
+
+.containerParentMid{
+    background-color: rgba(140, 088, 0, 0);
+    height: 350px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+    animation-name: opppro;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+.containerChildmid1{
+    background-color: rgb(25, 40, 64);
+    border-style: solid;
+    height: 350px;
+    width: 450px;
+    border-radius: 50px;
+}
+
+.containerChildPhotomid{
+    background-image: url("https://i.postimg.cc/6p4g8GgS/IMG-20231227-115936-471.jpg");
+    border-style: solid;
+    height: 300px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.containerChildmid2{
+    background-color: rgb(25, 40, 64);
+    border-style: solid;
+    height: 350px;
+    width: 450px;
+    border-radius: 50px;
+}
+
+/*text*/
+
+#textLink{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:rgb(213, 213, 213); 
+    text-align: center; 
+    font-size: 25px; 
+}
+
+#textBig{
+    font-family: 'Comfortaa', sans-serif;
+    color:rgb(193, 197, 255); 
+    text-align: center; 
+    font-size: 35px; 
+}
+
+#textSmall{
+    font-family: 'Comfortaa', sans-serif;
+    color:rgb(148, 152, 211); 
+    text-align: center; 
+    font-size: 25px; 
+}
+
+@keyframes opppro {
+    0%{
+        margin-top: -100%;
+    }
+    15%{
+       
+        margin-top: -85%;
+    }
+    30%{
+      
+        margin-top: -70%;
+    }
+    45%{
+       
+        margin-top: -55%;
+    }
+    60%{
+      
+        margin-top: -40%;
+    }
+    75%{
+       
+        margin-top: -25%;
+    }
+    85%{
+        
+        margin-top: -15%;
+    }
+    95%{
+       
+        margin-top: -5%;
+    }
+    100%{
+      
+        margin-top: 0%;
+    }
+}
